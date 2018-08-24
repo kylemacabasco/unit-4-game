@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thanos Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row title">
+            <h2 id="message">Click on the stones to defeat Thanos by reaching the goal!</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Goal: <span class="goal"></span></h4>
+            </div>
+            <div class="col-md-6">
+                <h4>Total: <span class="total"></span></h4>
+            </div>
+        </div>
+        <div class="row stoneRow">
+        </div>
+
+        <img class="thanos" src="./assets/images/Thanos.jpg" alt="Thanos">
+        <audio class="battleSong" controls autoplay>
+            <source src="Wong Fu - The Catman Rises (Behind the Music with George Shaw).mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="./assets/javascript/game.js"></script>
+
+</body>
+</html>
